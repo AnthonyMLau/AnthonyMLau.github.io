@@ -23,13 +23,20 @@ div.experience_boxes_2{
 }
 
 .aboutme {
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 }
 
 
+.social_media{
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
 
 .section_title {
-	font-size: 30px;
+	font-size: 40px;
 	padding-bottom: 10px;
 }
 
@@ -40,6 +47,10 @@ div.experience_boxes_2{
 	}
 }
 
+.resume_button{
+	box-shadow: inset 0px 0px 0px 2.5px #424242 !important;
+	color: black !important;
+}
 
 
 
@@ -224,7 +235,7 @@ body {
 
 		.aboutme p {
 			padding-top: 0;
-			padding-bottom: 20px;
+			/*padding-bottom: 20px;*/
 			text-align: center;
 		}
 

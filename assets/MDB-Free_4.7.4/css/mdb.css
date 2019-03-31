@@ -6948,8 +6948,12 @@ body.scrollable {
     text-align: center; }
     .modal-dialog.cascading-modal .modal-header .close {
       margin-right: 1rem; }
+    .modal-dialog.cascading-modal .modal-header .title h4 {
+      color: black;
+    }
     .modal-dialog.cascading-modal .modal-header .title {
       margin-bottom: 0;
+      /*color: black;*/
       width: 100%;
       font-size: 1.25rem; }
       .modal-dialog.cascading-modal .modal-header .title .fas, .modal-dialog.cascading-modal .modal-header .title .fab, .modal-dialog.cascading-modal .modal-header .title .far {
