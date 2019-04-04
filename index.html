@@ -47,10 +47,6 @@
 								<li><a href="#about-me" class="scrolly">About Me</a></li>
 								<li><a href="#experience" class="scrolly">Experience</a></li>
 								<li><a href="#projects" class="scrolly">Projects</a></li>
-								<li><a href="#awards" class="scrolly">Awards</a></li>
-								<li><a href="#extracurricular" class="scrolly">Extracurricular</a></li>
-								<li><a href="#volunteer" class="scrolly">Volunteering</a></li>
-								<li><a href="#about me" class="scrolly">About me</a></li>
 							</ul>
 						</div>
 					</li>
@@ -80,12 +76,12 @@
 
 
 		<!-- About Me-->
-		<!-- About Me-->
+		<!-- #region -->
 		<section id="about-me" class="wrapper style5">
 			<div class="inner">
 
 				<div class="aboutme">
-					<div class="photodiv"><img class="photo" src="./images/face.png" alt="Anthony Lau"></div>
+					<div class="photodiv"><img class="photo" src="./images/face2.png" alt="Anthony Lau"></div>
 					<h2>Hi, I'm Anthony Lau</h2>
 					<p>
 						I’m currently a student at the University of Waterloo studying Computer Engineering. I love to
@@ -101,7 +97,7 @@
 				</div>
 
 				<div class="social_media" style="padding-bottom: 50px;">
-					<div style="padding-bottom: 4%;">
+					<div style="padding-bottom: 15px;">
 						<a target="_blank" href="http://www.linkedin.com/in/anthonylau3">
 							<i class="fa fa-linkedin"></i>
 						</a>
@@ -113,21 +109,21 @@
 						</a>
 					</div>
 					<div>
-						<button type="button" class=" resume_button btn btn waves-effect">
-							<i class="fa fa-file"></i>
-							Resume
-						</button>
-
+						<a target="_blank" href="./images/resume.pdf">
+							<button type="button" class=" resume_button btn btn waves-effect" style="font-size: 15px">
+								<i class="fa fa-file"></i>
+								Resume
+							</button>
+						</a>
 					</div>
-
 				</div>
 			</div>
 		</section>
-
-		<section style="background-color: transparent; ">.</section>
+		<!-- #endregion -->
+		<section style="background-color: transparent; color: transparent">.</section>
 
 		<!-- Experience -->
-		<section id="Experience" class="wrapper style5 special">
+		<section id="experience" class="wrapper style5 special">
 			<!-- <div class="inner"> -->
 			<h2 class="section_title">Experience</h2>
 
@@ -153,6 +149,7 @@
 
 
 		</section>
+		<section style="background-color: transparent; color: transparent">.</section>
 
 		<!-- Projects -->
 		<section id="projects" class="wrapper style2 special">
@@ -161,46 +158,40 @@
 			<h2 class="section_title">Projects</h2>
 
 			<div class="container">
-				<!--Section: Projects-->
-				<!-- <section class="text-center pt-5"> -->
-				<!--Grid row-->
-				<!-- <div class="row d-flex justify-content-center mb-4"> -->
-				<!--Grid column-->
-				<!-- <div class="col-md-8 mt-5"> -->
 
-				<!--Grid column-->
-				<!-- </div> -->
-				<!--Grid row-->
-
-				<!-- Heading -->
-				<!-- <h1 class="mt-5 mb-5 display-4 font-weight-bold white-text section-heading">Projects</h1> -->
 
 				<!--Grid row-->
-				<div class="row pt-2 mt-5 pb-5 ">
+				<div class="row pt-2 mt-5 pb-0 ">
 					<!--Grid column-->
-					<div class="col-lg-4 col-md-6 mb-5" >
+					<div class="col-lg-4 col-md-6 mb-5">
 						<!-- Card -->
 						<div class="card text-center">
 							<!-- Card image -->
 							<div class="view overlay ">
-								<img class="card-img-top " src="./images/Bump3.png" alt="Bump" >
+								<img class="card-img-top " src="./images/Bump4.png" alt="Bump">
 								<a target='_blank'>
 									<div class="mask rgba-white-slight"></div>
 								</a>
 							</div>
 
 							<!-- Card content -->
-							<div class="card-body">
+							<div class="card-body" >
 								<!-- Title -->
 								<h4 class="card-title" style="color: black">Bump</h4>
 								<!-- Text -->
-								<p class="card-text">
-									A “smart-braille” IoT project which enables visually
-									impaired people to become more independent by using a 2 by 3 matrix of solenoids
-									display braille characters.
+								<p class="card-text" style="margin-bottom: 10px">
+									A “smart-braille” IoT project empowers visually impaired people to become
+									independent.
+									Bump consits of a 2 X 3 matrix of solenoids
+									to display braille characters & receives data through SMS, Google vision, or web
+									scraping.
 								</p>
-								<!-- Button -->
-								<!-- <a href="#" class="btn btn-primary">Button</a> -->
+								<!-- <div class="card_buttons" style="color: black;">
+									<a target="_blank" href="https://github.com/anthony5682/">
+										<i class="fa fa-github" ></i>
+									</a>
+								</div> -->
+								
 							</div>
 						</div>
 						<!-- Card -->
@@ -213,7 +204,7 @@
 						<div class="card">
 							<!-- Card image -->
 							<div class="view overlay">
-								<img class="card-img-top" src="./images/Rehabilination3.png" alt="Bump">
+								<img class="card-img-top" src="./images/gloveCropped.jpg" alt="RehabiliNation">
 								<a target='_blank'>
 									<div class="mask rgba-white-slight"></div>
 								</a>
@@ -222,11 +213,14 @@
 							<!-- Card content -->
 							<div class="card-body">
 								<!-- Title -->
-								<h4 class="card-title"style="color: black">RehabiliNation</h4>
+								<h4 class="card-title" style="color: black">RehabiliNation</h4>
 								<!-- Text -->
 								<p class="card-text">
-									A device that provides an accessible gaming experience for people with disabilities
-									making the often long and difficult rehabilitation period fun and even enjoyable.
+									A device that provides a way to make the often long and difficult
+									process of physical therapy fun and enjoyable.
+									Used an arduino with gyroscopic sensors and ported it to keyboard input.
+									<!-- accessible gaming experience for people with disabilities
+									making the often long and difficult rehabilitation period fun and enjoyable. -->
 								</p>
 								<!-- Button -->
 								<!-- <a href="#" class="btn btn-primary">Button</a> -->
@@ -242,7 +236,7 @@
 						<div class="card">
 							<!-- Card image -->
 							<div class="view overlay">
-								<img class="card-img-top" src="./images/Breadcrumbz2.png" alt="Bump">
+								<img class="card-img-top" src="./images/Breadcrumbz2.png" alt="Breadcrumbz">
 								<a target='_blank' href="https://github.com/anthony5682/UOttaHack2019-BreadCrumbz">
 									<div class="mask rgba-white-slight"></div>
 								</a>
@@ -251,13 +245,13 @@
 							<!-- Card content -->
 							<div class="card-body">
 								<!-- Title -->
-								<h4 class="card-title"style="color: black">Breadcrumbz</h4>
+								<h4 class="card-title" style="color: black">Breadcrumbz</h4>
 								<!-- Text -->
 								<p class="card-text">
 									A web app that incorporates volunteering into your daily commute.
-									Created a web service using Node.js and Express for the backend while MDBootstrap
-									was used for the UI. Google Maps APIs were used for calculating the most optimal
-									route and Twilio’s API was used for delivery verification.
+									Created a web service using Node.js and Express. Google Maps API was used for
+									plotting
+									routes and Twilio’s API for delivery verification.
 
 								</p>
 								<!-- Button -->
@@ -272,14 +266,15 @@
 
 
 				<!--Grid row-->
-				<div class="row pt-2 mt-5 pb-5">
+				<div class="row pt-0 mt-5 pb-1">
 					<!--Grid column-->
 					<div class="col-lg-4 col-md-6 mb-5">
 						<!-- Card -->
 						<div class="card">
 							<!-- Card image -->
 							<div class="view overlay">
-								<img class="card-img-top" src="./images/particle-collider2.gif" alt="Paricle collider">
+								<img class="card-img-top" src="./images/particle-collider-cropped.gif"
+									alt="Paricle collider">
 								<a target='_blank' href="https://github.com/anthony5682/CollisionSimulation.git">
 									<div class="mask rgba-white-slight"></div>
 								</a>
@@ -288,7 +283,7 @@
 							<!-- Card content -->
 							<div class="card-body">
 								<!-- Title -->
-								<h4 class="card-title"style="color: black">Particles Collision</h4>
+								<h4 class="card-title" style="color: black">Particle Collision</h4>
 								<!-- Text -->
 								<p class="card-text">
 									An event driven particle collision simulation in an
@@ -309,7 +304,7 @@
 						<div class="card">
 							<!-- Card image -->
 							<div class="view overlay">
-								<img class="card-img-top" src="./images/casino-roulette-480.gif" alt="Casinorama">
+								<img class="card-img-top" src="./images/roulette.png" alt="Casinorama">
 								<a target='_blank' href="https://github.com/anthony5682/Casinorama.git">
 									<div class="mask rgba-white-slight"></div>
 								</a>
@@ -318,7 +313,7 @@
 							<!-- Card content -->
 							<div class="card-body">
 								<!-- Title -->
-								<h4 class="card-title"style="color: black">Casinorama</h4>
+								<h4 class="card-title" style="color: black">Casinorama</h4>
 								<!-- Text -->
 								<p class="card-text">
 									A virtual casino containing a host of classic games such as poker,
@@ -339,7 +334,8 @@
 						<div class="card">
 							<!-- Card image -->
 							<div class="view overlay">
-								<img class="card-img-top" src="./images/skinny-road2-480.png" alt="Skinny road game">
+								<img class="card-img-top" src="./images/skinny-road-recropped.png"
+									alt="Skinny road game">
 								<a>
 									<div class="mask rgba-white-slight"></div>
 								</a>
@@ -348,7 +344,7 @@
 							<!-- Card content -->
 							<div class="card-body">
 								<!-- Title -->
-								<h4 class="card-title"style="color: black">Skinny Road</h4>
+								<h4 class="card-title" style="color: black">Skinny Road</h4>
 								<!-- Text -->
 								<p class="card-text">
 									A simple game where you are a cube dodging obstacles of varying sizes coming
@@ -445,15 +441,16 @@
 	<!-- Footer -->
 	<footer id="footer">
 		<ul class="icons">
-			<li><a href="#" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon fa-envelope-o"><span class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon fa-github"><span class="label">Instagram</span></a></li>
-			<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-			<!-- <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
+			<li><a href="http://www.linkedin.com/in/anthonylau3" class="icon fa-linkedin"><span
+						class="label">LinkedIn</span></a></li>
+			<li><a href="mailto:am2lau@edu.uwaterloo.ca" class="icon fa-envelope-o"><span class="label">Email</span></a>
+			</li>
+			<li><a href="https://github.com/anthony5682" class="icon fa-github"><span class="label">GitHub</span></a>
+			</li>
 		</ul>
 		<ul class="copyright">
 			<li>&copy; Anthony Lau 2019</li>
-			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 		</ul>
 	</footer>
 
